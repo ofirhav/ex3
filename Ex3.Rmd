@@ -70,9 +70,10 @@ plot(linkedinGraph,vertex.size=5,vertex.label.cex =0.7,asp=FALSE)
 
 We can see that we have 3 major communities:
 
-1. Blue - University friends and HR recruiters.
-2. Green - Work Colleagues.
-3. Yellow - Friends from Previous University.
+1. Blue - University friends and HR recruiters - 35 nodes.
+2. Green - Work Colleagues - 6 nodes.
+3. Yellow - Friends from Previous University - 11 nodes.
+There are 11 communities that each contains 1 node.
 
 To summarize we got 17 communities(there are a lot of communities also because the isolated vertexes) with modularity of 0.1856942.
 
@@ -89,10 +90,11 @@ plot(linkedinGraph, layout=layout.fruchterman.reingold, vertex.size=5, vertex.co
 
 Within this graph we see 4 major communities:
 
-1. Blue - Friends from Previous University.
-2. Orange - Work Colleagues.
-3. Green - HR recruiters.
-4. Yellow - University friends.
+1. Blue - Friends from Previous University - 11 nodes.
+2. Orange - Work Colleagues - 5 nodes.
+3. Green - HR recruiters - 10 nodes.
+4. Yellow - University friends - 33 nodes.
+There are 7 communities each contains 1 node.
 
 From our point of view, it's looks like the walk-trap algorithm succeed better than the girvan-newman algorithm, and the communities  diversity is more accurate.
 
